@@ -5,4 +5,4 @@ ENV TZ Asia/Tokyo
 # nginx config file
 COPY ./containers/nginx/*.conf /etc/nginx/conf.d/
 
-WORKDIR /var/www/html
+WORKDIR /var/www
